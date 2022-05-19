@@ -99,6 +99,12 @@ h1 {
 .product_sec p {
   margin-bottom: 5rem;
 }
+.three_items {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  text-align: center;
+
+  }
 
 h2{
   font-size:1.6rem;
@@ -116,6 +122,8 @@ li{
 
 .main_container {
   max-width: 1000%;
+  align-items:center;
+  justify-content: center;
   overflow: auto;
   padding: auto;
   margin: auto;}
