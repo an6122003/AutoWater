@@ -101,7 +101,7 @@ h1 {
 }
 
 h2{
-  font-size:1.7rem;
+  font-size:1.6rem;
 }
 p{
   font-size:1.4rem;
@@ -113,6 +113,7 @@ li{
 #home{
   padding-top:140px;}
 
+
 .main_container {
   max-width: 1000%;
   overflow: auto;
@@ -120,7 +121,7 @@ li{
   margin: auto;}
 
 .progress_sec {
-  background-color: rgb(247, 251, 255);
+  background-color: rgb(255, 255, 255);
 }
 .steps_container {
   display: flex;
@@ -130,17 +131,27 @@ li{
   padding: 5px;
   margin: 5px;
 }
+.left_m {
+  padding-left:20px;
+  padding-right:0px;
+}
+.pic_right_m {
+  padding-right:30px;
+  padding-left:0px;
 
-
+}
 #prog_color:nth-child(2n) {
   -webkit-box-shadow: inset 0 0 50px rgba(165, 185, 205, 0.2);
   border-radius: 10px;
   background-color: #F5F5F5;}
 #prog_color:nth-child(2n+1) {
-  -webkit-box-shadow: inset 0 0 50px rgba(165, 185, 205, 0.2);
+  -webkit-box-shadow: inset 0 0 50px rgba(142, 163, 184, 0.2);
   border-radius: 10px;
   background-color: #effaff;}
 
+
+.demo_sec {
+  background: linear-gradient(rgb(236, 241, 245),rgb(255, 255, 255),rgb(236, 241, 245))}
 .member_cont{
     display: grid;
     grid-template-columns:repeat(5, 1fr);
@@ -168,6 +179,7 @@ footer {
 .bottom h4 {
   color:rgb(141, 147, 153);
 }
+
 
 .gallery_container {
   border-radius: 100px;
@@ -206,4 +218,12 @@ footer {
   margin: 5px;
   object-fit: contain;
   border-radius: 5px;
+}
+
+.us {
+  background: linear-gradient(rgb(251, 254, 255),rgb(231, 239, 243));
+  border-radius: 10px;
+  overflow: auto;}
+.us p {
+  padding-left:10px;
 }
